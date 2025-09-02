@@ -132,7 +132,7 @@ export default function CarComponent({
         <div className="row">
           {filteredCars.map((car, index) => (
             <div className="col-md-3 mb-4" key={index}>
-              <div className="card h-100 rounded border">
+              <div className="card h-100 rounded border shadow">
                 <div className="card-body p-2">
                   <div className="d-flex justify-content-between small text-muted mb-1">
                     <span>{car.date}</span>
